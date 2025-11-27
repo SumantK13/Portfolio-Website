@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+h1{
+  font-family: Italiana;
+  letter-spacing: 2px;
+}
+h2{
+  font-family: italiana;
+}
+body{
+    font-family: inter;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+/* Ensure the content doesn't show white behind it */
+#root {
+  min-height: 100vh;
+}
